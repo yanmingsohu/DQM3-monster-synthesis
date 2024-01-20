@@ -3,8 +3,8 @@
 dragon quest monsters: the dark prince
 
 
-![screen](https://github.com/yanmingsohu/Madou-Koukaku-Monster/blob/master/screen1.png)
-![screen](https://github.com/yanmingsohu/Madou-Koukaku-Monster/blob/master/screen2.png)
+![screen](https://github.com/yanmingsohu/DQM3-monster-synthesis/blob/master/screen1.png)
+![screen](https://github.com/yanmingsohu/DQM3-monster-synthesis/blob/master/screen2.png)
 
 (中文版) 方便查询
 
