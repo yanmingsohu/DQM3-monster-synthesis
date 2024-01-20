@@ -1,0 +1,21 @@
+{
+  "name": "DQM3-monster-synthesis",
+  "version": "1.0.0",
+  "description": "Dragon quest monsters: the dark prince - Monster Synthesis tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "keywords": [
+    "DQM",
+    "game",
+    "Monster",
+    "synthesis"
+  ],
+  "author": "yanming",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
