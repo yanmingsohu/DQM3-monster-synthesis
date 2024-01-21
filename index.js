@@ -212,20 +212,21 @@ function readData() {
 
   function add(m) {
     data[m[1]] = [m[11], m[12], m[13], m[14]];
-    detail[m[1]] = {m, s:[
-      'No.', m[0],
-      //',Name:', m[1],
-      ',', m[2],
-      ',', m[3],
-      ',HP:', m[4],
-      ',MP:', m[5],
-      ',Act:', m[6],
-      ',Def:', m[7],
-      ',Spd:', m[8],
-      ',Int:', m[9],
-      ',All:', m[10],
-      ',Fix:', m[15],
-    ].join('')};
+    detail[m[1]] = {
+      m, 
+      s:[
+        'No.', m[0],
+        //',Name:', m[1],
+        ' ', m[2], m[3], '/',m[15].trim(),
+        ' HP:', m[4],
+        '+MP:', m[5],
+        '+Act:', m[6],
+        '+Def:', m[7],
+        '+Spd:', m[8],
+        '+Int:', m[9],
+        '=', m[10]
+      ].join('')
+    };
     //console.log(m)
   }
 }
